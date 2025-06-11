@@ -1,0 +1,128 @@
+/* Fondo general y tipografía elegante */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #cfd8dc);
+  margin: 0;
+  padding: 0;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Encabezado llamativo */
+h2 {
+  color: #283593;
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+/* Contenedor principal centrado */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Formulario centrado con estilo */
+form {
+  background: #ffffff;
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(4px);
+}
+
+/* Etiquetas */
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #424242;
+  display: block;
+}
+
+/* Inputs y textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border 0.3s, box-shadow 0.3s;
+  background-color: #fafafa;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3f51b5;
+  outline: none;
+  box-shadow: 0 0 6px rgba(63, 81, 181, 0.4);
+}
+
+/* Botón moderno */
+button {
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: 100%;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #283593;
+  transform: translateY(-2px);
+}
+
+/* Estilo para alertas */
+.alerta {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 18px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.05em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.alerta-alta {
+  background: #ffebee;
+  color: #b71c1c;
+  border: 1px solid #b71c1c;
+}
+
+.alerta-baja {
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #1b5e20;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+  form {
+    padding: 30px 20px;
+    border-radius: 12px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  button {
+    font-size: 0.95em;
+  }
+}
