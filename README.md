@@ -51,7 +51,7 @@ tramites_ml/
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/usuario/tramites_ml.git
+   [git clone https://github.com/usuario/tramites_ml.git](https://github.com/loganz18/trabajo-python.git)
    cd tramites_ml
    ```
 
